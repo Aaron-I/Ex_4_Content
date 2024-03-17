@@ -43,12 +43,10 @@ RegisterNumber:  212223230002
 package com.example.contentprovider;
 
 import android.os.Bundle;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
-
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.ContentResolver;
@@ -58,12 +56,9 @@ import android.net.Uri;
 import android.provider.ContactsContract;
 import android.util.Log;
 import android.view.View;
-
 import java.util.Objects;
 
-
 public class MainActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -90,7 +85,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
             cursor.close();
-
         }
 }
 ```
